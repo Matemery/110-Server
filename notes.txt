@@ -12,3 +12,4 @@ pip install Flask
 --- Run App ---
 win py/python server.py or Flask run 
 mac python 3 server.py
+ pip install -r requirements.txt
