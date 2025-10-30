@@ -5,3 +5,10 @@ mac python3 -m venv venv
 ---- Activate the venv ----
 win venv/Scripts/activate
 mac sourse venv/bin/activate 
+
+--- Install Flask ---
+pip install Flask 
+
+--- Run App ---
+win py/python server.py or Flask run 
+mac python 3 server.py
