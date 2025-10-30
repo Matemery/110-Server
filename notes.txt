@@ -1,0 +1,7 @@
+---- Create venv ----
+windows py/python -m venv venv 
+mac python3 -m venv venv 
+
+---- Activate the venv ----
+win venv/Scripts/activate
+mac sourse venv/bin/activate 
