@@ -47,7 +47,7 @@ def coupons():
     number_of_coupons = len(coupons)
 
     # Return the coupons and the length in a JSON response
-    return _json({
+    return ({
         "count": number_of_coupons,
         "coupons": coupons
     })  
